@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1", "HomeWork1\HomeWork1.csproj", "{C1C92530-449E-4C2C-8B99-AA109D430C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumberCode", "HomeWork2\ReverseNumberCode\ReverseNumberCode.csproj", "{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theSquareOfAnyNumber", "HomeWork2\theSquareOfAnyNumber\theSquareOfAnyNumber.csproj", "{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseHundrnTens", "HomeWork2\ReverseHundrnTens\ReverseHundrnTens.csproj", "{8545AEA6-E8DA-4411-B402-B5588A942AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmeticMeanOfTwoNumbers", "HomeWork2\arithmeticMeanOfTwoNumbers\arithmeticMeanOfTwoNumbers.csproj", "{A6378314-90F3-4E34-8BE7-998FD725E828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariantsOfChangingTheValueOfVariables", "HomeWork2\VariantsOfChangingTheValueOfVariables\VariantsOfChangingTheValueOfVariables.csproj", "{404E59F1-0105-4207-ADCB-12FE11409C57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1C92530-449E-4C2C-8B99-AA109D430C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C92530-449E-4C2C-8B99-AA109D430C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C92530-449E-4C2C-8B99-AA109D430C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C92530-449E-4C2C-8B99-AA109D430C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8545AEA6-E8DA-4411-B402-B5588A942AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8545AEA6-E8DA-4411-B402-B5588A942AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8545AEA6-E8DA-4411-B402-B5588A942AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8545AEA6-E8DA-4411-B402-B5588A942AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6378314-90F3-4E34-8BE7-998FD725E828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6378314-90F3-4E34-8BE7-998FD725E828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6378314-90F3-4E34-8BE7-998FD725E828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6378314-90F3-4E34-8BE7-998FD725E828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404E59F1-0105-4207-ADCB-12FE11409C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404E59F1-0105-4207-ADCB-12FE11409C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404E59F1-0105-4207-ADCB-12FE11409C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404E59F1-0105-4207-ADCB-12FE11409C57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {558328B3-BF78-40AA-9020-A395760271EB}
+	EndGlobalSection
+EndGlobal

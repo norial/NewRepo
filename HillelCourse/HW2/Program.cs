@@ -7,7 +7,7 @@
 //int ones = inputNum % 10;
 //int tens = (inputNum % 100) / 10; ;
 //int hundreds = inputNum / 100;
-//int ReverseInput = ones*100 + tens*10 + hundreds;
+//int ReverseInput = ones * 100 + tens * 10 + hundreds;
 //Console.WriteLine("{0}{1}{2}", ones, tens, hundreds);
 //Console.WriteLine($"Reverse number is :{ReverseInput}");
 
@@ -28,7 +28,7 @@
 //int ones = inputNum % 10;
 //int tens = (inputNum % 100) / 10; ;
 //int hundreds = inputNum / 100;
-//int ReverseTnOInput = ones + tens * 100 + hundreds*10;
+//int ReverseTnOInput = ones + tens * 100 + hundreds * 10;
 //Console.WriteLine($"Reverse number is :{ReverseTnOInput}");
 
 
@@ -46,13 +46,17 @@
 
 //5*) Дослідити інші способи поміняти місцями значення двох змінних без використання тимчасової змінної. 
 
-////1
+//1
 //int a = 3;
 //int b = 5;
 
 //a = a ^ b;
 //b = a ^ b;
 //a = a ^ b;
+
+
+//Console.WriteLine($"a = {a},b = {b}");
+
 
 // Опис, розглянемо числа 3 та 5 у двоїчній системі, 3 - 0011, 5 - 0101. застосовуючи побітове виключення OR 
 //    X         Y       X^Y
@@ -65,15 +69,17 @@
 //На 54 строке: b = a ^ b => 0110 ^ 0101 => 0011 => 3
 //На 55 строке: a = a ^ b => 0110 ^ 0011 => 0101 => 5
 
-//Console.WriteLine($"{a}, {b}");
 
 //2
+
+//int a = 3;
+//int b = 5;
 
 //a = a * b;
 //b = a / b;
 //a = a / b;
 
-//Console.WriteLine($"{a}, {b}");
+//Console.WriteLine($"a = {a},b = {b}");
 
 
-//Console.ReadKey();
+Console.ReadKey();
