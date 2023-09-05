@@ -3,17 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1", "HomeWork1\HomeWork1.csproj", "{C1C92530-449E-4C2C-8B99-AA109D430C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork1", "HomeWork1\HomeWork1.csproj", "{C1C92530-449E-4C2C-8B99-AA109D430C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumberCode", "HomeWork2\ReverseNumberCode\ReverseNumberCode.csproj", "{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumberCode", "HomeWork2\ReverseNumberCode\ReverseNumberCode.csproj", "{01AA3EBA-C9AE-4295-B7E5-C1A7421CFC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theSquareOfAnyNumber", "HomeWork2\theSquareOfAnyNumber\theSquareOfAnyNumber.csproj", "{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theSquareOfAnyNumber", "HomeWork2\theSquareOfAnyNumber\theSquareOfAnyNumber.csproj", "{87BAE8A6-EFB6-461C-B689-9DD3BDB96D59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseHundrnTens", "HomeWork2\ReverseHundrnTens\ReverseHundrnTens.csproj", "{8545AEA6-E8DA-4411-B402-B5588A942AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseHundrnTens", "HomeWork2\ReverseHundrnTens\ReverseHundrnTens.csproj", "{8545AEA6-E8DA-4411-B402-B5588A942AF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmeticMeanOfTwoNumbers", "HomeWork2\arithmeticMeanOfTwoNumbers\arithmeticMeanOfTwoNumbers.csproj", "{A6378314-90F3-4E34-8BE7-998FD725E828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arithmeticMeanOfTwoNumbers", "HomeWork2\arithmeticMeanOfTwoNumbers\arithmeticMeanOfTwoNumbers.csproj", "{A6378314-90F3-4E34-8BE7-998FD725E828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariantsOfChangingTheValueOfVariables", "HomeWork2\VariantsOfChangingTheValueOfVariables\VariantsOfChangingTheValueOfVariables.csproj", "{404E59F1-0105-4207-ADCB-12FE11409C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariantsOfChangingTheValueOfVariables", "HomeWork2\VariantsOfChangingTheValueOfVariables\VariantsOfChangingTheValueOfVariables.csproj", "{404E59F1-0105-4207-ADCB-12FE11409C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "HomeWork3\QuadraticEquation\QuadraticEquation.csproj", "{FD424570-E56A-400E-B945-0B21AAE7DFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddNumberChecker", "HomeWork3\EvenOddNumberChecker\EvenOddNumberChecker.csproj", "{59D968E1-2C39-4BA4-9098-1E059D7EA330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Equalizer", "HomeWork3\The Equalizer\The Equalizer.csproj", "{FF55FFA8-613C-4636-95C9-93C6045B14F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsTheDayOfTheWeekApp", "HomeWork3\WhatsTheDayOfTheWeekApp\WhatsTheDayOfTheWeekApp.csproj", "{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsTheSeasonNow", "HomeWork3\WhatsTheMonthNow\WhatsTheSeasonNow.csproj", "{D8F476C2-0D40-4809-A170-DC5555118179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "HomeWork3\FizzBuzz\FizzBuzz.csproj", "{92C95B7C-5A85-4313-A7AA-F8344ABC6033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +57,30 @@ Global
 		{404E59F1-0105-4207-ADCB-12FE11409C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{404E59F1-0105-4207-ADCB-12FE11409C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{404E59F1-0105-4207-ADCB-12FE11409C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD424570-E56A-400E-B945-0B21AAE7DFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD424570-E56A-400E-B945-0B21AAE7DFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD424570-E56A-400E-B945-0B21AAE7DFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD424570-E56A-400E-B945-0B21AAE7DFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D968E1-2C39-4BA4-9098-1E059D7EA330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D968E1-2C39-4BA4-9098-1E059D7EA330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D968E1-2C39-4BA4-9098-1E059D7EA330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D968E1-2C39-4BA4-9098-1E059D7EA330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF55FFA8-613C-4636-95C9-93C6045B14F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF55FFA8-613C-4636-95C9-93C6045B14F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF55FFA8-613C-4636-95C9-93C6045B14F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF55FFA8-613C-4636-95C9-93C6045B14F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F476C2-0D40-4809-A170-DC5555118179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F476C2-0D40-4809-A170-DC5555118179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F476C2-0D40-4809-A170-DC5555118179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F476C2-0D40-4809-A170-DC5555118179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
