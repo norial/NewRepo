@@ -15,25 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arithmeticMeanOfTwoNumbers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariantsOfChangingTheValueOfVariables", "HomeWork2\VariantsOfChangingTheValueOfVariables\VariantsOfChangingTheValueOfVariables.csproj", "{404E59F1-0105-4207-ADCB-12FE11409C57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquation", "HomeWork3\QuadraticEquation\QuadraticEquation.csproj", "{FD424570-E56A-400E-B945-0B21AAE7DFD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "HomeWork3\QuadraticEquation\QuadraticEquation.csproj", "{FD424570-E56A-400E-B945-0B21AAE7DFD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOddNumberChecker", "HomeWork3\EvenOddNumberChecker\EvenOddNumberChecker.csproj", "{59D968E1-2C39-4BA4-9098-1E059D7EA330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddNumberChecker", "HomeWork3\EvenOddNumberChecker\EvenOddNumberChecker.csproj", "{59D968E1-2C39-4BA4-9098-1E059D7EA330}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Equalizer", "HomeWork3\The Equalizer\The Equalizer.csproj", "{FF55FFA8-613C-4636-95C9-93C6045B14F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Equalizer", "HomeWork3\The Equalizer\The Equalizer.csproj", "{FF55FFA8-613C-4636-95C9-93C6045B14F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsTheDayOfTheWeekApp", "HomeWork3\WhatsTheDayOfTheWeekApp\WhatsTheDayOfTheWeekApp.csproj", "{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsTheDayOfTheWeekApp", "HomeWork3\WhatsTheDayOfTheWeekApp\WhatsTheDayOfTheWeekApp.csproj", "{F7325ECB-53D1-48FB-A3CA-BB454E2AD56E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsTheSeasonNow", "HomeWork3\WhatsTheMonthNow\WhatsTheSeasonNow.csproj", "{D8F476C2-0D40-4809-A170-DC5555118179}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsTheSeasonNow", "HomeWork3\WhatsTheMonthNow\WhatsTheSeasonNow.csproj", "{D8F476C2-0D40-4809-A170-DC5555118179}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "HomeWork3\FizzBuzz\FizzBuzz.csproj", "{92C95B7C-5A85-4313-A7AA-F8344ABC6033}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4Cycles", "HomeWork4\Lesson4Cycles\Lesson4Cycles.csproj", "{23A8794F-2465-468A-9276-9BA0ED3CB776}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordChecker", "HomeWork4\PasswordChecker\PasswordChecker.csproj", "{5BBC8B72-4AD0-4DD2-A780-3A4DF4B8FDB4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryToGuessTheNum", "HomeWork4\TryToGuessTheNum\TryToGuessTheNum.csproj", "{3F1DF9CD-A64C-447E-BDFE-2081348D2EDD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrimalNum", "HomeWork4\IsPrimalNum\IsPrimalNum.csproj", "{D9754FA1-D3E4-4489-AA69-48464D79D0E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "HomeWork3\FizzBuzz\FizzBuzz.csproj", "{92C95B7C-5A85-4313-A7AA-F8344ABC6033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,22 +81,6 @@ Global
 		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C95B7C-5A85-4313-A7AA-F8344ABC6033}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23A8794F-2465-468A-9276-9BA0ED3CB776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23A8794F-2465-468A-9276-9BA0ED3CB776}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23A8794F-2465-468A-9276-9BA0ED3CB776}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23A8794F-2465-468A-9276-9BA0ED3CB776}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BBC8B72-4AD0-4DD2-A780-3A4DF4B8FDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BBC8B72-4AD0-4DD2-A780-3A4DF4B8FDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BBC8B72-4AD0-4DD2-A780-3A4DF4B8FDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BBC8B72-4AD0-4DD2-A780-3A4DF4B8FDB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F1DF9CD-A64C-447E-BDFE-2081348D2EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F1DF9CD-A64C-447E-BDFE-2081348D2EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F1DF9CD-A64C-447E-BDFE-2081348D2EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F1DF9CD-A64C-447E-BDFE-2081348D2EDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9754FA1-D3E4-4489-AA69-48464D79D0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9754FA1-D3E4-4489-AA69-48464D79D0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9754FA1-D3E4-4489-AA69-48464D79D0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9754FA1-D3E4-4489-AA69-48464D79D0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

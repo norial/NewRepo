@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HillelCourse",
+    "\\HillelCourse\\HomeWork3",
+    "\\HillelCourse\\HomeWork3\\SquareAlignment"
   ],
-  "SelectedNode": "\\HillelCourse.sln",
+  "SelectedNode": "\\HillelCourse\\HomeWork3\\SquareAlignment\\square alignment.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -7,25 +7,19 @@ namespace EvenOddNumberChecker
         {
             Console.WriteLine("Hello, It's Odd/Even number Checker, please enter your number below");
             int inputNum = int.Parse(Console.ReadLine());
-            bool resultCheck = CheckNum(inputNum);
-            DisplayNum(resultCheck, inputNum);
+            int checkedNum = inputNum;
+            CheckNum(inputNum, checkedNum);
             Console.ReadKey();
         }
 
-        
-
-        private static bool CheckNum(int inputNum)
+        private static void CheckNum(int inputNum,int checkedNum)
         {
-            return inputNum % 2 == 0;
-        }
-
-        private static void DisplayNum(bool resultCheck,int inputNum)
-        {
-            if (resultCheck == true)
+            checkedNum = inputNum % 2;
+            if (checkedNum == 0)
             {
                 Console.WriteLine($"The {inputNum} is Even");
             }
-            else
+            else 
             {
                 Console.WriteLine($"The {inputNum} is Odd");
             }
