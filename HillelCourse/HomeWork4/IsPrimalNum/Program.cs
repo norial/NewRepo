@@ -15,17 +15,15 @@
         {
             for (int i = 2; i < (Math.Sqrt(genNum)); i++)
             {
-                if (genNum % i != 0)
-                {
-                    Console.WriteLine($"{genNum} is Primal");
-                    return;
-                }
-                else
+                if (genNum % i == 0)
                 {
                     Console.WriteLine($"{genNum} is Composite");
                     return;
                 }
+                    
+                    
             }
+            Console.WriteLine($"{genNum} is Primal");
         }
     }
 
