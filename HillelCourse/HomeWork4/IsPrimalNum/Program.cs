@@ -19,9 +19,7 @@
                 {
                     Console.WriteLine($"{genNum} is Composite");
                     return;
-                }
-                    
-                    
+                }       
             }
             Console.WriteLine($"{genNum} is Primal");
         }
