@@ -37,11 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPrimalNum", "HomeWork4\Is
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson5", "HomeWork5\Lesson5\Lesson5.csproj", "{CADD46F6-CCDC-4609-BB26-A3C69D5834E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addingElementToArrayAtTheBeggining", "HomeWork5\addingElementToArrayAtTheBeggining\addingElementToArrayAtTheBeggining.csproj", "{42DFD748-1225-4912-9B95-BE5228E99216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "addingElementToArrayAtTheBeggining", "HomeWork5\addingElementToArrayAtTheBeggining\addingElementToArrayAtTheBeggining.csproj", "{42DFD748-1225-4912-9B95-BE5228E99216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputUntil(-1)", "HomeWork5\OutputUntil(-1)\OutputUntil(-1).csproj", "{33C7FAD7-BCA6-45B4-9771-71E05ACC33CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutputUntil(-1)", "HomeWork5\OutputUntil(-1)\OutputUntil(-1).csproj", "{33C7FAD7-BCA6-45B4-9771-71E05ACC33CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfArrays", "HomeWork5\SumOfArrays\SumOfArrays.csproj", "{96469804-7876-461F-8A7D-6EDE265D24CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfArrays", "HomeWork5\SumOfArrays\SumOfArrays.csproj", "{96469804-7876-461F-8A7D-6EDE265D24CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElemInArray", "HomeWork5\RemoveElemInArray\RemoveElemInArray.csproj", "{FBA95F92-1BA5-4844-BE4F-639556CA296C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOrderOrNot", "HomeWork5\InOrderOrNot\InOrderOrNot.csproj", "{C1D4D545-E4D7-4DB2-86D7-E7319CFCA990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{96469804-7876-461F-8A7D-6EDE265D24CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96469804-7876-461F-8A7D-6EDE265D24CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96469804-7876-461F-8A7D-6EDE265D24CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA95F92-1BA5-4844-BE4F-639556CA296C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA95F92-1BA5-4844-BE4F-639556CA296C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA95F92-1BA5-4844-BE4F-639556CA296C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA95F92-1BA5-4844-BE4F-639556CA296C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D4D545-E4D7-4DB2-86D7-E7319CFCA990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D4D545-E4D7-4DB2-86D7-E7319CFCA990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D4D545-E4D7-4DB2-86D7-E7319CFCA990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D4D545-E4D7-4DB2-86D7-E7319CFCA990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
