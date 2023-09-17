@@ -1,0 +1,14 @@
+D:\Repos\MenuTest\bin\Debug\net6.0\MenuTest.exe
+D:\Repos\MenuTest\bin\Debug\net6.0\MenuTest.deps.json
+D:\Repos\MenuTest\bin\Debug\net6.0\MenuTest.runtimeconfig.json
+D:\Repos\MenuTest\bin\Debug\net6.0\MenuTest.dll
+D:\Repos\MenuTest\bin\Debug\net6.0\MenuTest.pdb
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.AssemblyInfoInputs.cache
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.AssemblyInfo.cs
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.csproj.CoreCompileInputs.cache
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.dll
+D:\Repos\MenuTest\obj\Debug\net6.0\refint\MenuTest.dll
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.pdb
+D:\Repos\MenuTest\obj\Debug\net6.0\MenuTest.genruntimeconfig.cache
+D:\Repos\MenuTest\obj\Debug\net6.0\ref\MenuTest.dll
