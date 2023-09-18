@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmountOfNegativeAndPositive
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastnameSorting", "HomeWork7\LastnameSorting\LastnameSorting.csproj", "{6A47BF07-B909-4235-BFDE-B5F10BC38DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6.2", "HomeWork7\Lesson6.2\Lesson6.2.csproj", "{1634F859-29BB-4611-B338-5EAD6A18E365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson6.2", "HomeWork7\Lesson6.2\Lesson6.2.csproj", "{1634F859-29BB-4611-B338-5EAD6A18E365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeManagement", "HomeWork7\GradeManagement\GradeManagement.csproj", "{B57119E6-9761-4456-8D65-1299E7F73E5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{1634F859-29BB-4611-B338-5EAD6A18E365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1634F859-29BB-4611-B338-5EAD6A18E365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1634F859-29BB-4611-B338-5EAD6A18E365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57119E6-9761-4456-8D65-1299E7F73E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57119E6-9761-4456-8D65-1299E7F73E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57119E6-9761-4456-8D65-1299E7F73E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57119E6-9761-4456-8D65-1299E7F73E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
