@@ -14,7 +14,7 @@ namespace GradeManagement
     {
         enum Menu
         {
-            AddMark, About, PrintArray, AvarageGrade, Exit
+            AddMark, About, PrintArray, AvarageGrade, Exit, 
         }
         static void Main()
         {
@@ -147,7 +147,7 @@ namespace GradeManagement
                     Console.SetCursorPosition(startX + (i % optionsPerLine) * spacingPerLine, startY + i / optionsPerLine);
 
                     if (i == selectedNow)
-                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.ForegroundColor = ConsoleColor.Magenta;
 
                     Console.Write(Enum.Parse(UserEnum.GetType(), i.ToString()));
 
