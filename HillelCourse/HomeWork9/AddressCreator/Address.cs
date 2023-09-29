@@ -9,11 +9,11 @@
         string country;
         int index;
         string address;
-        public string UserAddress 
-            {
-            get { return address; } 
-            set {  address = value; }
-            }
+        public string UserAddress
+        {
+            get { return address; }
+            set { address = value; }
+        }
 
         public int Appartment
         {
@@ -48,77 +48,62 @@
 
         public void UserInput()
         {
-            bool isParse;
-            for (int i = 0; i < 6; i++)
+            while (String.IsNullOrEmpty(Country))
             {
-                switch (i)
-                {
-                    case 0:
-                        while (country == null || country == "")
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your country here: ");
-                            country = Console.ReadLine();
-                        }
-                        break;
-
-                    case 1:
-                        while (city == null || city == "")
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your city here: ");
-                            city = Console.ReadLine();
-                        }
-                        break;
-                    case 2:
-                        while (street == null || street == "")
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your street here: ");
-                            street = Console.ReadLine();
-                        }
-                        break;
-                    case 3:
-                        while (house == null || house == "")
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your house here: ");
-                            house = Console.ReadLine();
-                        }
-                        break;
-                    case 4:
-                        while (appartment == 0 || appartment == null)
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your appartment here: ");
-                            string userInput = Console.ReadLine();
-                            int.TryParse(userInput, out int result);
-                            appartment = result;
-                        }
-                        break;
-                    case 5:
-                        while (index == 0 || index == null)
-                        {
-                            Console.Clear();
-                            Console.Write("Enter Your index here: ");
-                            string userInput = Console.ReadLine();
-                            int.TryParse(userInput, out int result);
-                            index = result;
-                        }
-                        break;
-                }
+                Country = AddressUserInput(nameof(Country));
+            }
+            while (String.IsNullOrEmpty(City))
+            {
+                City = AddressUserInput(nameof(City));
+            }
+            while (String.IsNullOrEmpty(Street))
+            {
+                Street = AddressUserInput(nameof(Street));
+            }
+            while (String.IsNullOrEmpty(House))
+            {
+                House = AddressUserInput(nameof(House));
+            }
+            while (Appartment == 0 || Appartment == null)
+            {
+                Appartment = AddressUserInput(nameof(Appartment), Appartment);
+            }
+            while (Index == 0 || Index == null)
+            {
+                Index = AddressUserInput(nameof(Index), Index);
             }
             Console.Clear();
             AddressCreator();
             Console.WriteLine("Nice, Your address is saved\nPress Enter to go to Menu.");
-            
+        }
+
+
+
+
+
+
+        private int AddressUserInput(string userInputAddressName, int userInputAddress)
+        {
+            Console.Clear();
+            Console.Write($"Enter Your {userInputAddressName} here: ");
+            string userInput = Console.ReadLine();
+            int.TryParse(userInput, out int result);
+            userInputAddress = result;
+            return userInputAddress;
+        }
+        private string AddressUserInput(string userInputAddress)
+        {
+            Console.Clear();
+            Console.Write($"Enter Your {userInputAddress} here: ");
+            userInputAddress = Console.ReadLine();
+            return userInputAddress;
         }
 
         public string AddressCreator()
         {
-            address = $"{country}, {city}, {street}, {house.ToString()}, {appartment.ToString()}, {index.ToString()}";
-            return address;
+            UserAddress = $"{Country}, {City}, {Street}, {House}, {Appartment.ToString()}, {Index.ToString()}";
+            return UserAddress;
         }
-        
+
     }
 }
