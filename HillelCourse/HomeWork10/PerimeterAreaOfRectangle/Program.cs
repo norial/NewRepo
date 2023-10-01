@@ -5,6 +5,8 @@
 //    +  Створіть властивості double Area та double Perimeter за допомогою одного методу get.
 //    +  Напишіть програму, яка приймає від користувача довжину двох сторін прямокутника та відображає периметр і площу на екрані.
 
+using System.Drawing;
+using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
 
 namespace PerimeterAreaOfRectangle
@@ -13,12 +15,36 @@ namespace PerimeterAreaOfRectangle
     {
         static void Main(string[] args)
         {
+            var optionChoice = new Menu();
             Rectangle rectangle = new Rectangle();
-            rectangle.Side1 = UserInput();
-            rectangle.Side2 = UserInput();
-            Console.Clear();
-            new Rectangle(rectangle.Side1, rectangle.Side2);
-            Console.ReadKey();
+            while (true)
+            {
+                int input = Menu.OptionChoice(true, new UserPickedOption());
+                switch (input)
+                {
+                    case (int)UserPickedOption.FillRect:
+                        {
+                            Console.Clear();
+                            rectangle.Side1 = UserInput();
+                            rectangle.Side2 = UserInput();
+                            break;
+                        }
+                    case (int)UserPickedOption.printArrayAndPerimeter:
+                        {
+                            Console.Clear();
+                            new Rectangle(rectangle.Side1, rectangle.Side2);
+                            rectangle.PrintOut(rectangle.Area, rectangle.Perimeter);
+                            Console.WriteLine("Press Enter to continue");
+                            Console.ReadKey();
+                            break;
+                        }
+                    case (int)UserPickedOption.Exit:
+                        Environment.Exit(0);
+                        break;
+                }
+            }
+            
+            
         }
 
         private static double UserInput()

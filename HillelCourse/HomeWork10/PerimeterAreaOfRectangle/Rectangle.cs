@@ -46,10 +46,9 @@ namespace PerimeterAreaOfRectangle
             this.Side2 = side2;
             PerimeterCalculator(side1, side2);
             AreaCalculator(side1, side2);
-            PrintOut(Area, Perimeter);
         }
 
-        private void PrintOut(double area, double perimeter)
+        public void PrintOut(double area, double perimeter)
         {
             Console.WriteLine($"Perimeter is: {perimeter}");
             Console.WriteLine($"Area is: {area}");
