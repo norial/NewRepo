@@ -36,36 +36,25 @@ namespace PerimeterAreaOfRectangle
         {
             get { return PerimeterCalculator(Side1, Side2); }
         }
-        public Rectangle()
-        {
-
-        }
         public Rectangle(double side1, double side2)
         {
             this.Side1 = side1;
             this.Side2 = side2;
-            PerimeterCalculator(side1, side2);
-            AreaCalculator(side1, side2);
         }
 
-        public void PrintOut(double area, double perimeter)
+        public void PrintOut(string name, double option)
         {
-            Console.WriteLine($"Perimeter is: {perimeter}");
-            Console.WriteLine($"Area is: {area}");
+            Console.WriteLine($"{name} is: {option}");
         }
 
         private double AreaCalculator(double side1, double side2)
         {
-            double result = 0;
-            result = side1 * side2;
-            return result;
+            return side1 * side2;
         }
 
         private double PerimeterCalculator(double side1, double side2)
         {
-            double result = 0;
-            result = 2 * (side1 + side2);
-            return result;
+            return 2 * (side1 + side2);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace PerimeterAreaOfRectangle
         static void Main(string[] args)
         {
             var optionChoice = new Menu();
-            Rectangle rectangle = new Rectangle();
+            Rectangle rectangle = new Rectangle(0, 0);
             while (true)
             {
                 int input = Menu.OptionChoice(true, new UserPickedOption());
@@ -29,11 +29,20 @@ namespace PerimeterAreaOfRectangle
                             rectangle.Side2 = UserInput();
                             break;
                         }
-                    case (int)UserPickedOption.printArrayAndPerimeter:
+                    case (int)UserPickedOption.printArea:
                         {
                             Console.Clear();
                             new Rectangle(rectangle.Side1, rectangle.Side2);
-                            rectangle.PrintOut(rectangle.Area, rectangle.Perimeter);
+                            rectangle.PrintOut("Area" , rectangle.Area);
+                            Console.WriteLine("Press Enter to continue");
+                            Console.ReadKey();
+                            break;
+                        }
+                    case (int)UserPickedOption.printPerimeter:
+                        {
+                            Console.Clear();
+                            new Rectangle(rectangle.Side1, rectangle.Side2);
+                            rectangle.PrintOut("Perimeter" , rectangle.Perimeter);
                             Console.WriteLine("Press Enter to continue");
                             Console.ReadKey();
                             break;

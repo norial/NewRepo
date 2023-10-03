@@ -2,7 +2,7 @@
 {
     enum UserPickedOption : byte
     {
-       FillRect, printArrayAndPerimeter, Exit,
+       FillRect, printArea, printPerimeter, Exit,
     }
     class Menu
     {
