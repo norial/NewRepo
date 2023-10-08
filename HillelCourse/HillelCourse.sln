@@ -71,9 +71,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson8", "HomeWork9\Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressCreator", "HomeWork9\AddressCreator\AddressCreator.csproj", "{F47B1ACE-39F7-48B8-959B-52F3E0D8DE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerimeterAreaOfRectangle", "HomeWork10\PerimeterAreaOfRectangle\PerimeterAreaOfRectangle.csproj", "{C56B2ED2-0382-4803-BECA-B4396C4F6A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerimeterAreaOfRectangle", "HomeWork10\PerimeterAreaOfRectangle\PerimeterAreaOfRectangle.csproj", "{C56B2ED2-0382-4803-BECA-B4396C4F6A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInfo", "HomeWork10\UserInfo\UserInfo.csproj", "{FCE67B73-25CB-473F-B7F0-F9EF24C6CDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInfo", "HomeWork10\UserInfo\UserInfo.csproj", "{FCE67B73-25CB-473F-B7F0-F9EF24C6CDDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson11", "HomeWork11\Lesson11\Lesson11.csproj", "{26597B6B-E068-4CC4-BE72-7E1F0B7D72AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShaping", "HomeWork11\GeometricShaping\GeometricShaping.csproj", "{BBE0835D-5819-4976-9FEA-BCDBBEFA9B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +229,14 @@ Global
 		{FCE67B73-25CB-473F-B7F0-F9EF24C6CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE67B73-25CB-473F-B7F0-F9EF24C6CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE67B73-25CB-473F-B7F0-F9EF24C6CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26597B6B-E068-4CC4-BE72-7E1F0B7D72AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26597B6B-E068-4CC4-BE72-7E1F0B7D72AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26597B6B-E068-4CC4-BE72-7E1F0B7D72AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26597B6B-E068-4CC4-BE72-7E1F0B7D72AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE0835D-5819-4976-9FEA-BCDBBEFA9B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE0835D-5819-4976-9FEA-BCDBBEFA9B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE0835D-5819-4976-9FEA-BCDBBEFA9B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE0835D-5819-4976-9FEA-BCDBBEFA9B07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
