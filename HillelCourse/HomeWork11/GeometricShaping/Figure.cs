@@ -10,15 +10,11 @@ namespace GeometricShaping
     {
         int x;
         int y;
-        int[] coords;
+        string name;
 
         public int GetX { get; set; }
         public int GetY { get; set; }
-        public int[] GetCoords
-        {
-            get { return coords; }
-            set { coords = value; }
-        }
+        public string Name { get { return name; } set{ name = value; } }
         public int EnterCoordX()
         {
             Console.Write("Input x Coord:");

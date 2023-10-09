@@ -6,13 +6,10 @@ namespace GeometricShaping
 {
     public class Rectangle : Figure
     {
-        string name;
         double width;
         double height;
-        public string Name { get { return name; } set { name = value; } }
         public double GetWidth { get { return width; } set {  width = value; } }
         public double GetHeight { get { return height; } set { height = value; } }
-
         public string EnterName()
         {
             Console.Write("Enter Rectangle name: ");
@@ -49,6 +46,7 @@ namespace GeometricShaping
             Console.WriteLine("Creating Rectangle, Press enter to continue");
             GetX = base.GetX;
             GetY = base.GetY;
+            Name = base.Name;
             Console.ReadKey();
         }   
     }

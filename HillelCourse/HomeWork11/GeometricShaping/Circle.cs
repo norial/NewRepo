@@ -6,9 +6,7 @@ namespace GeometricShaping
 {
    class Circle : Figure
     {
-        string name;
         double radius;
-        public string Name { get; set; }
         public double GetRadius { get { return radius; } set {  radius = value; } }
 
         public string EnterName()
@@ -44,6 +42,7 @@ namespace GeometricShaping
             Console.WriteLine("Creating circle, Press enter to continue");
             GetX = base.GetX;
             GetY = base.GetY;
+            Name = base.Name;
             Console.ReadKey();
         }
     }
