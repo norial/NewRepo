@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Створіть базовий клас Фігура, який містить поля для координат точки початку фігури (X та Y).
 
 namespace GeometricShaping
 {
@@ -12,26 +8,16 @@ namespace GeometricShaping
         int y;
         string name;
 
-        public int GetX { get; set; }
-        public int GetY { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
         public string Name { get { return name; } set{ name = value; } }
-        public int EnterCoordX()
-        {
-            Console.Write("Input x Coord:");
-            var success = int.TryParse(Console.ReadLine(), out int xCord);
-            return xCord;
-        }
-        public int EnterCoordY()
-        {
-            Console.Write("Input y Coord:");
-            var success = int.TryParse(Console.ReadLine(), out int yCord);
-            return yCord;
+       
 
-        }
-        public Figure()
+        public Figure(int x, int y, string name)
         {
-            Console.Clear();
-            Console.WriteLine("Here you can enter some data for this figure and then check it info");
+            this.X = x;
+            this.Y = y;
+            this.Name = name;
         }
     }
 }
