@@ -10,24 +10,43 @@ namespace GeometricShaping
         double height;
         public double GetWidth { get { return width; } set {  width = value; } }
         public double GetHeight { get { return height; } set { height = value; } }
-
-
-        public  string OutputPerimeter(double width, double height)
+        public string EnterName()
         {
-            double perimeter = 2 * (width + height);
+            Console.Write("Enter Rectangle name: ");
+            string name = Console.ReadLine();
+            return name;
+        }
+        public double EnterHeigth()
+        {
+            Console.WriteLine("Please, Enter the Heigth Below");
+            string input = Console.ReadLine();
+            bool success = int.TryParse(input, out int HSide);
+            return HSide;
+        }
+        public double EnterWidth()
+        {
+            Console.WriteLine("Please, Enter the Width Below");
+            string input = Console.ReadLine();
+            bool success = int.TryParse(input, out int WSide);
+            return WSide;
+        }
+        public string OutputPerimeter(double Width, double Height)
+        {
+            double perimeter = 2*(Width+Height);
             return $"Perimeter is {perimeter}";
         }
-        public  string OutputArea(double width, double height)
+        public string OutputArea(double Width, double Height)
         {
-            double area = height*width;
+            double area = Height*Width;
             return $"Area is {area}";
         }
 
-        public Rectangle(int x, int y, string name, double height, double width) : base(x, y, name)
+        public Rectangle() : base()
         {
-            GetHeight = height;
-            GetWidth = width;
-            Console.WriteLine($"Checking Rectangle {name}, Press enter to continue");
+            Console.WriteLine("Creating Rectangle, Press enter to continue");
+            GetX = base.GetX;
+            GetY = base.GetY;
+            Name = base.Name;
             Console.ReadKey();
         }   
     }

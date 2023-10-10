@@ -9,7 +9,19 @@ namespace GeometricShaping
         double radius;
         public double GetRadius { get { return radius; } set {  radius = value; } }
 
-        
+        public string EnterName()
+        {
+            Console.Write("Enter Rectangle name: ");
+            string name = Console.ReadLine();
+            return name;
+        }
+        public double EnterRadius()
+        {
+            Console.WriteLine("Please, Enter the Radius Below");
+            string input = Console.ReadLine();
+            bool success = int.TryParse(input, out int GetRadius);
+            return GetRadius;
+        }
          public string OutputPerimeter(double radius)
         {
             int perimeter = (int)(2 * Math.PI * radius);
@@ -25,10 +37,12 @@ namespace GeometricShaping
             int length = (int)(Math.PI * radius);
             return $"Length is {length}";
         }
-        public Circle(int x, int y, string name, double radius) : base(x, y, name)
+        public Circle()
         {
-            GetRadius = radius;
-            Console.WriteLine($"Checking circle {name}, Press enter to continue");
+            Console.WriteLine("Creating circle, Press enter to continue");
+            GetX = base.GetX;
+            GetY = base.GetY;
+            Name = base.Name;
             Console.ReadKey();
         }
     }

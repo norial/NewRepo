@@ -13,7 +13,6 @@ namespace GeometricShaping
         Rectingle_Info,
         Circle_Info,
         Exit,
-
     }
     enum RectingleMenu : byte
     {
