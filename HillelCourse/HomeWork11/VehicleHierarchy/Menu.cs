@@ -4,31 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometricShaping
+namespace VehicleHierarchy
 {
-   enum MainMenu : byte
+    enum MainMenu
     {
-        Enter_Rectingle_Sides_And_Coords, 
-        Enter_Cirlce_Radius_And_Coords,
-        Rectingle_Info,
-        Circle_Info,
-        Exit,
-
-    }
-    enum RectingleMenu : byte
-    {
-        Output_Rectangle_Coords,
-        Output_Rectingle_Perimeter,
-        Output_Rectingle_Area,
-        Ourput_Rectingle_Sides,
-    }
-    enum CircleMenu : byte
-    {
-        Output_Circle_Coords,
-        Output_Circle_Perimeter,
-        Output_Circle_Area,
-        Output_Circle_Length,
-        Output_Circle_Radius_And_Diameter,
+        Create_Car,
+        Create_Bicycle,
+        Print_Car_info,
+        Print_Bicycle_Info,
+        Exit
     }
     public class MenuCreator
     {
