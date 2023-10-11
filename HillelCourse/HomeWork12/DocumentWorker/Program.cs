@@ -17,14 +17,10 @@ namespace DocumentWorker
             Console.WriteLine("Press Enter to continue");
             while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
-                if (programKey == "ProVer2023")
-                {
-                    programVersion = 1;
-                }
-                else if (programKey == "ExpertVer2023")
-                {
-                    programVersion = 2;
-                }
+                if (programKey == "ProVer2023") programVersion = 1;
+                else if (programKey == "ExpertVer2023")  programVersion = 2;
+                else programVersion = 0;
+
                 if (programVersion == 0)
                 {
                     DocumentWorker documentWorker = new DocumentWorker();
