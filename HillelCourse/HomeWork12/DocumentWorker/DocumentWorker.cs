@@ -14,7 +14,7 @@ namespace DocumentWorker
 {
     internal class DocumentWorker
     {
-        public void OpenDocument()
+        public void OpeningDocument()
         {
             for (int i = 0; i < 3; i++)
             {
@@ -35,6 +35,10 @@ namespace DocumentWorker
                 Thread.Sleep(300);
                 Console.Clear();
             }
+        }
+        public void OpenDocument()
+        {
+            OpeningDocument();
             Console.WriteLine("Document opened!\r\n");
         }
         public virtual void EditDocument()
