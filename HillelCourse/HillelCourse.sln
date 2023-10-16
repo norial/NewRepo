@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleHierarchy", "HomeWor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankingSystem", "HomeWork12\BankingSystem\BankingSystem.csproj", "{B51E594A-27EB-4EB5-BAA9-E32A9440305F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentWorker", "HomeWork12\DocumentWorker\DocumentWorker.csproj", "{D8FBDDE3-A03A-4465-8495-638A9BA5B4B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentWorker", "HomeWork12\DocumentWorker\DocumentWorker.csproj", "{D8FBDDE3-A03A-4465-8495-638A9BA5B4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleMoving", "HomeWork13\VehicleMoving\VehicleMoving.csproj", "{F6EB1D8C-6874-4709-A87D-B0DE14DC7A6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{D8FBDDE3-A03A-4465-8495-638A9BA5B4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8FBDDE3-A03A-4465-8495-638A9BA5B4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8FBDDE3-A03A-4465-8495-638A9BA5B4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB1D8C-6874-4709-A87D-B0DE14DC7A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB1D8C-6874-4709-A87D-B0DE14DC7A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB1D8C-6874-4709-A87D-B0DE14DC7A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB1D8C-6874-4709-A87D-B0DE14DC7A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
