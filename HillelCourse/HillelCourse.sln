@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order_Queue", "HomeWork14\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone_Dictionary", "HomeWork14\Phone_Dictionary\Phone_Dictionary.csproj", "{8AE19BAE-AD45-4A41-89AB-365CAAC2182E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_HomeWork", "HomeWork15\LINQ_HomeWork\LINQ_HomeWork.csproj", "{C2A18CDC-AE4B-48FC-8962-E1101D4EE5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Sort", "HomeWork15\Student_Sort\Student_Sort.csproj", "{D2EA7B84-94A3-4488-9010-6294ACD5E116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,14 @@ Global
 		{8AE19BAE-AD45-4A41-89AB-365CAAC2182E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE19BAE-AD45-4A41-89AB-365CAAC2182E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE19BAE-AD45-4A41-89AB-365CAAC2182E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A18CDC-AE4B-48FC-8962-E1101D4EE5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A18CDC-AE4B-48FC-8962-E1101D4EE5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A18CDC-AE4B-48FC-8962-E1101D4EE5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A18CDC-AE4B-48FC-8962-E1101D4EE5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EA7B84-94A3-4488-9010-6294ACD5E116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EA7B84-94A3-4488-9010-6294ACD5E116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EA7B84-94A3-4488-9010-6294ACD5E116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EA7B84-94A3-4488-9010-6294ACD5E116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
