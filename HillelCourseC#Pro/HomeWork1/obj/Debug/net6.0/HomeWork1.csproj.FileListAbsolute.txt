@@ -1,0 +1,14 @@
+D:\Repos\HillelCourseC#Pro\HomeWork1\bin\Debug\net6.0\HomeWork1.exe
+D:\Repos\HillelCourseC#Pro\HomeWork1\bin\Debug\net6.0\HomeWork1.deps.json
+D:\Repos\HillelCourseC#Pro\HomeWork1\bin\Debug\net6.0\HomeWork1.runtimeconfig.json
+D:\Repos\HillelCourseC#Pro\HomeWork1\bin\Debug\net6.0\HomeWork1.dll
+D:\Repos\HillelCourseC#Pro\HomeWork1\bin\Debug\net6.0\HomeWork1.pdb
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.AssemblyInfoInputs.cache
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.AssemblyInfo.cs
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.csproj.CoreCompileInputs.cache
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.dll
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\refint\HomeWork1.dll
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.pdb
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\HomeWork1.genruntimeconfig.cache
+D:\Repos\HillelCourseC#Pro\HomeWork1\obj\Debug\net6.0\ref\HomeWork1.dll
